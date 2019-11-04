@@ -25,13 +25,12 @@ img {
 }
 
 .banner {
+  display: block;
   position: absolute;
   top: 5px;
   bottom: 10px;
   left: 25px;
   max-width: 50em;
-  width: 100%;
-  display: block;
   transform: translateX();
 }
 
@@ -40,6 +39,7 @@ h2 {
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
   margin: 0;
+  display: inline;
 }
 
 p {

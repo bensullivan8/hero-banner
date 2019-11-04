@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-div img.img-flex {
+.img-flex {
   position: relative;
   display: flex;
   max-height: 500px;
@@ -26,10 +26,12 @@ img {
 
 .banner {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  max-height: 500px;
+  top: 5px;
+  bottom: 10px;
+  left: 25px;
   max-width: 50em;
+  width: 100%;
+  display: block;
 }
 
 h2 {

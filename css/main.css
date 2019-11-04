@@ -13,7 +13,7 @@ body {
 
 .img-flex {
   position: relative;
-  display: flex;
+  display: block;
   max-height: 500px;
   width: 100%;
 }

@@ -21,6 +21,7 @@ body {
 .img-flex {
   position: relative;
   width: 100%;
+  display: flex;
 }
 
 .content {

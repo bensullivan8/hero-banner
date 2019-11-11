@@ -12,33 +12,27 @@ body {
   margin: 0;
 }
 
-.box {
+.banner {
   position: relative;
   margin: 0;
+  max-height: 500px;
 }
 
 .img-flex {
-  display: block;
-  width: 100%;
-}
-
-img {
-  display: block;
   position: relative;
-  overflow: hidden;
   width: 100%;
 }
 
-.banner {
+.content {
   display: block;
   position: absolute;
   width: 100%;
   bottom: 0;
   left: 50%;
   max-width: 50em;
-  max-height: 500px;
   transform: translateX(-50%);
   margin: 1.5rem;
+  overflow: hidden;
 }
 
 h2 {
